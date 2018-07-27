@@ -138,10 +138,13 @@ body, html {
     background-size: cover;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .bg-grey-trans-rounded-button {
         height: 12vw;
         width: 12vw;
+        color: white;
+        text-shadow:  black 0.1em 0.1em 0.2em;
+
     }
     .mycard h2 {
         font-size: 1.3rem;
