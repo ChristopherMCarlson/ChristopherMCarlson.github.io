@@ -160,3 +160,9 @@ body, html {
         height: 20vh;
     }
 }
+
+@media only screen and (min-width: 1024px) {
+    .footer-height-general {
+        height: 8vh;
+    }
+}
