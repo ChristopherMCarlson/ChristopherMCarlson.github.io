@@ -15,11 +15,10 @@
 .card-1 {
     background-image: url(card1.jpg);  
 }
-  .card-2 {
+.card-2 {
     background-image: url(card2.jpg);
 }
-
-  .card-3 {
+.card-3 {
     background-image: url(card3.jpg);
 }
 .mycard:hover {
@@ -137,4 +136,14 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .bg-grey-trans-rounded-button {
+        height: 12vw;
+        width: 12vw;
+    }
+    .mycard h2 {
+        font-size: 1.6rem;
+    }
 }
