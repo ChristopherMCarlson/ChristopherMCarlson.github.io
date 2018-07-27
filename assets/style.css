@@ -85,7 +85,7 @@ body, html {
     background: rgba(90, 90, 90, 0.5);
     border-radius: 25px;
 }
-.parallax2 { 
+.parallax3 { 
     background-image: url(bg3.jpg);
     height: 100%; 
     background-attachment: fixed;
@@ -129,4 +129,12 @@ body, html {
 .github-color:hover {
     text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
     color: #32ca54;
+}
+.parallax2 { 
+    background-image: url(bg4.jpg);
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
