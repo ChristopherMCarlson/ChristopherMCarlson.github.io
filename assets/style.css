@@ -84,13 +84,8 @@ body, html {
     background: rgba(90, 90, 90, 0.5);
     border-radius: 25px;
 }
-.parallax3 { 
-    background-image: url(bg3.jpg);
+.contact-row { 
     height: 100%; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .row-full-height {
     min-height: 100vh;
